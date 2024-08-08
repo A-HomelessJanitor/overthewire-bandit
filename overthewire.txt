@@ -1,0 +1,83 @@
+bandit 0
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+bandit 1
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+bandit 2
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+bandit 3
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+bandit 4
+file ./-file*
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+bandit 5
+find -size 1033c ! -executable -type f
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+bandit 6
+find -readable ! -executable -user bandit7 -group bandit6 -size 33c
+./var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+bandit 7
+grep millionth data.txt
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+bandit 8
+sort data.txt | uniq -c
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+bandit 9
+strings data.txt | grep '= '
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+bandit 10
+base64 -d data.txt
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+bandit 11
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+bandit 12	<-- abnorably long to finish
+decompress and change file exstention to what your gonna decompress to
+FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+bandit 13
+ssh with -i sshkey.private
+
+bandit 14
+echo MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS | nc localhost 30000
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+bandit 15
+echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | openssl s_client -connect localhost:30001 -ign_eof
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+bandit 16
+nc -zv localhost 31000-32000 2>&1 | grep succeeded
+nmap -sV localhost -p31046,31518,31691,31790,31960	31518
+echo kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx | openssl s_client -connect localhost:31790 -ign_eof
+RSA key.txt > key.key chmod 600 key.key
+
+bandit 17
+diff passwords.old passwords.new
+x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+bandit 18
+ssh bandit18@bandit.labs.overthewire.org -p2220 'cat readme'
+cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+bandit 19
+./bandit20-do cat /etc/bandit_pass/bandit20
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+bandit 20
+send current password on the nc lissen and run binary on other session
+EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+bandit 21
