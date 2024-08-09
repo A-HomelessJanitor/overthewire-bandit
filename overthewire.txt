@@ -91,4 +91,4 @@ echo I am user $myname | md5sum
 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
 
 bandit 23
-
+make a file in tmp add permissions and copy the password
