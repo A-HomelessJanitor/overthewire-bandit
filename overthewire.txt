@@ -81,3 +81,14 @@ send current password on the nc lissen and run binary on other session
 EeoULMCra2q0dSkYj561DX7s1CpBuOBt
 
 bandit 21
+read the cron config file for bandit22 then find the bash file, run it and get the temp dir with the password
+tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+bandit 22
+cron script runs every minute  and sends the password to the /tmp/$target whitch is the md5 hash of "I am user $myname" 
+myname=bandit23      <-- wow i didnt know you could make variables in CLI ?
+echo I am user $myname | md5sum
+0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+bandit 23
+
